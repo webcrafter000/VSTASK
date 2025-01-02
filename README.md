@@ -3,7 +3,11 @@
 This workflow is a cutting-edge platform that combines a React-based frontend with a FastAPI backend, designed to facilitate the creation and management of workflows through Directed Acyclic Graphs (DAGs).
 
 ## Screenshots
+![vsassgn](https://github.com/user-attachments/assets/24451cd6-bcb3-4c4d-bdde-61147cd1bb2b)
 
+![vsassign2](https://github.com/user-attachments/assets/9a3627cb-8e3b-4a48-831f-3bcda9cbf71c)
+
+![vsassign3](https://github.com/user-attachments/assets/cefb5f91-8452-4913-a578-08871b465737)
 
 ## Key Features
 
