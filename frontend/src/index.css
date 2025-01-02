@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 80% 90%;
+    --foreground: 240 10% 10%;
+    --card: 220 75% 85%;
+    --card-foreground: 240 15% 10%;
+    --popover: 220 80% 90%;
+    --popover-foreground: 240 10% 10%;
+    --primary: 180 85% 70%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 300 70% 80%;
+    --secondary-foreground: 0 0% 10%;
+    --muted: 240 70% 85%;
+    --muted-foreground: 240 10% 40%;
+    --accent: 50 100% 80%;
+    --accent-foreground: 240 10% 10%;
+    --destructive: 0 85% 70%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 220 10% 80%;
+    --input: 220 80% 90%;
+    --ring: 180 85% 60%;
+    --radius: 0.75rem;
+  }
+
+  .dark {
+    --background: 220 15% 12%;
+    --foreground: 0 0% 90%;
+    --card: 220 12% 15%;
+    --card-foreground: 0 0% 95%;
+    --popover: 220 12% 15%;
+    --popover-foreground: 0 0% 90%;
+    --primary: 180 70% 50%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 300 50% 40%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 220 10% 25%;
+    --muted-foreground: 240 5% 65%;
+    --accent: 30 100% 50%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5% 25%;
+    --input: 220 15% 12%;
+    --ring: 180 60% 40%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border transition-all ease-in-out duration-300;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to bottom, hsl(var(--background)), hsl(var(--card)));
+  }
+}
